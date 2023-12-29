@@ -1,0 +1,57 @@
+#Dom
+    padding: 80px 0
+    .chat
+        border: 20px solid #a4caff
+        border-radius: 40px
+        margin-bottom: 50px
+        .message::-webkit-scrollbar
+            width: 0
+
+        .message::-webkit-scrollbar-thumb
+            background-color: #ffffff54
+            border-radius: 10px
+
+        .message::-webkit-scrollbar-track
+            background-color: #202C33
+        .message
+            height: 450px
+            overflow-y: auto
+            ul
+                padding: 5px
+                li
+                    display: flex
+                    h6
+                        max-width: 50%
+                        height: auto
+                        display: inline-block
+                        word-wrap: break-word
+                        padding: 10px
+                        margin: 10px
+                        border-radius: 0 10px 10px 10px
+                        line-height: 1.2
+                .liMe
+                    justify-content: flex-end
+                    h6
+                        background-color: #7991E7
+                        color: #fff
+                .liYou
+                    justify-content: flex-start
+                    h6
+                        background-color: #0000003f
+                        color: #000
+        .sendMessage
+            padding-top: 20px
+            background-color: #a4caff
+            display: flex
+            justify-content: center
+            align-items: center
+            input
+                border: 2px solid #000
+                border-radius: 20px
+                margin: 10px
+            button
+                border: none
+                border-radius: 20px
+                padding: 10px 20px
+                background-color: #7fa7e0
+                color: #ffff

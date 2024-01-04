@@ -1,55 +1,48 @@
 #Dom
     padding: 50px 0
     .chat
-        border: 20px solid #a4caff
+        border: 30px solid #A4CAFF
         border-radius: 20px
-        margin-bottom: 50px
+        margin: 40px
         .message::-webkit-scrollbar
-            width: 0
-        .message::-webkit-scrollbar-thumb
-            background-color: #ffffff54
-            border-radius: 10px
-        .message::-webkit-scrollbar-track
-            background-color: #202C33
+            display: none
         .message
-            width: 420px
-            height: 200px
-            overflow-y: auto
-            ul
-                padding: 5px
-                li
-                    display: flex
-                    h6
+            height: 270px
+            overflow: auto
+            .end
+                justify-content: flex-end
+            div
+                display: flex
+                .line
+                    h3
                         max-width: 50%
                         height: auto
                         display: inline-block
-                        word-wrap: break-word
-                        padding: 10px
-                        margin: 10px
                         border-radius: 20px
-                        line-height: 1.2
-                .liMe
-                    justify-content: flex-end
-                    h6
                         background-color: #7991E7
                         color: #fff
-                .liYou
-                    justify-content: flex-start
-                    h6
-                        background-color: #0000003f
-                        color: #000
-        .sendMessage
-            padding-top: 10px
-            background-color: #a4caff
+                        padding: 10px
+                        margin: 10px
+                        word-wrap: break-word
+                        line-height: 1.2
+        .text
             display: flex
-            justify-content: center
             align-items: center
+            justify-content: center
+            background-color: #A4CAFF
+            padding-top: 30px
             input
                 border-radius: 20px
-                margin: 10px
-            button
-                border: none
-                border-radius: 20px
+                padding: 5px 10px
+            .sent
+                background-color: #94A6E6
+                color: #fff
                 padding: 10px 20px
-                background-color: #7fa7e0
-                color: #ffff
+                border-radius: 20px
+                margin-left: 10px
+                &:hover
+                    cursor: pointer
+@media screen and ( max-width: 992px )
+    #Dom
+        .chat
+            margin: 0 0 40px 0

@@ -14,70 +14,59 @@ a:hover {
   padding: 50px 0;
 }
 #Dom .chat {
-  border: 20px solid #a4caff;
+  border: 30px solid #A4CAFF;
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin: 40px;
 }
 #Dom .chat .message::-webkit-scrollbar {
-  width: 0;
-}
-#Dom .chat .message::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.3294117647);
-  border-radius: 10px;
-}
-#Dom .chat .message::-webkit-scrollbar-track {
-  background-color: #202C33;
+  display: none;
 }
 #Dom .chat .message {
-  width: 420px;
-  height: 200px;
-  overflow-y: auto;
+  height: 270px;
+  overflow: auto;
 }
-#Dom .chat .message ul {
-  padding: 5px;
+#Dom .chat .message .end {
+  justify-content: flex-end;
 }
-#Dom .chat .message ul li {
+#Dom .chat .message div {
   display: flex;
 }
-#Dom .chat .message ul li h6 {
+#Dom .chat .message div .line h3 {
   max-width: 50%;
   height: auto;
   display: inline-block;
-  word-wrap: break-word;
-  padding: 10px;
-  margin: 10px;
   border-radius: 20px;
-  line-height: 1.2;
-}
-#Dom .chat .message ul .liMe {
-  justify-content: flex-end;
-}
-#Dom .chat .message ul .liMe h6 {
   background-color: #7991E7;
   color: #fff;
-}
-#Dom .chat .message ul .liYou {
-  justify-content: flex-start;
-}
-#Dom .chat .message ul .liYou h6 {
-  background-color: rgba(0, 0, 0, 0.2470588235);
-  color: #000;
-}
-#Dom .chat .sendMessage {
-  padding-top: 10px;
-  background-color: #a4caff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#Dom .chat .sendMessage input {
-  border-radius: 20px;
+  padding: 10px;
   margin: 10px;
+  word-wrap: break-word;
+  line-height: 1.2;
 }
-#Dom .chat .sendMessage button {
-  border: none;
+#Dom .chat .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #A4CAFF;
+  padding-top: 30px;
+}
+#Dom .chat .text input {
   border-radius: 20px;
+  padding: 5px 10px;
+}
+#Dom .chat .text .sent {
+  background-color: #94A6E6;
+  color: #fff;
   padding: 10px 20px;
-  background-color: #7fa7e0;
-  color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+#Dom .chat .text .sent:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  #Dom .chat {
+    margin: 0 0 40px 0;
+  }
 }/*# sourceMappingURL=style.css.map */

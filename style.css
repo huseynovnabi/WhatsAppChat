@@ -31,17 +31,19 @@ a:hover {
 #Dom .chat .message div {
   display: flex;
 }
-#Dom .chat .message div .line h3 {
+#Dom .chat .message div .line {
   max-width: 50%;
   height: auto;
   display: inline-block;
   border-radius: 20px;
   background-color: #7991E7;
-  color: #fff;
   padding: 10px;
   margin: 10px;
-  word-wrap: break-word;
+}
+#Dom .chat .message div .line h3 {
+  color: #fff;
   line-height: 1.2;
+  word-wrap: break-word;
 }
 #Dom .chat .text {
   display: flex;

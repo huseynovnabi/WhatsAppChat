@@ -25,6 +25,7 @@ a:hover {
 #Dom .chat .message {
   height: 270px;
   background-color: #fff;
+  border-radius: 20px;
   overflow: auto;
 }
 #Dom .chat .message .end {

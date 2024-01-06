@@ -8,7 +8,7 @@ $(document).ready(function () {
                 let vall = $("#inputme").val()
                     , newH3 = $('<h3></h3>')
                     , newDiv = $('<div class="line"></div>')
-                    , bigDiv = $(`<div${myclass}></div>`)
+                    , bigDiv = $(`<div ${myclass} ></div>`)
                 $(newH3).append(vall);
                 $(newDiv).append(newH3);
                 $(bigDiv).append(newDiv);
@@ -37,7 +37,7 @@ $(document).ready(function () {
                 let vall = $("#inputyou").val()
                     , newH3 = $('<h3></h3>')
                     , newDiv = $('<div class="line"></div>')
-                    , bigDiv = $(`<div${myclass}></div>`)
+                    , bigDiv = $(`<div ${myclass} ></div>`)
                 $(newH3).append(vall);
                 $(newDiv).append(newH3);
                 $(bigDiv).append(newDiv);

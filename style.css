@@ -38,7 +38,7 @@ a:hover {
   height: auto;
   display: inline-block;
   border-radius: 20px;
-  background-color: #7991E7;
+  background-color: rgba(20, 42, 122, 0.6352941176);
   padding: 10px;
   margin: 7px;
 }

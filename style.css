@@ -14,7 +14,7 @@ a:hover {
   padding: 50px 0;
 }
 #Dom .chat {
-  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  background-color: #E8EDFF;
   border-radius: 20px;
   margin: 40px;
   padding: 30px;
@@ -39,9 +39,9 @@ a:hover {
   height: auto;
   display: inline-block;
   border-radius: 20px;
-  background-color: rgba(20, 42, 122, 0.6352941176);
+  background-color: #7991E7;
   padding: 10px;
-  margin: 7px;
+  margin: 7px 10px;
 }
 #Dom .chat .message div .line h3 {
   color: #fff;
@@ -59,7 +59,7 @@ a:hover {
   padding: 8px;
 }
 #Dom .chat .text .sent {
-  background-color: #142a7a;
+  background-color: #94A6E6;
   color: #fff;
   padding: 10px 25px;
   border-radius: 20px;

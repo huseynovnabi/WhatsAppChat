@@ -1,13 +1,17 @@
 #Dom
     padding: 120px 0
+    #chatYou
+        left: 8%
     .chat
+        position: absolute
+        width: 35%
         background-color: #E8EDFF
         border-radius: 20px
         padding: 30px
         .message::-webkit-scrollbar
             display: none
         .message
-            height: 300px
+            height: 320px
             background-color: #fff
             border-radius: 20px
             overflow: auto
@@ -33,6 +37,7 @@
             justify-content: center
             padding-top: 30px
             input
+                width: 200px
                 border-radius: 20px
                 padding: 10px
             .sent
@@ -46,5 +51,8 @@
                     cursor: pointer
 @media screen and ( max-width: 992px )
     #Dom
+        #chatYou
+            margin-bottom: 50px
         .chat
-            margin: 0 0 40px 0
+            position: static
+            width: 100%

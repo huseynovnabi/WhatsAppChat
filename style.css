@@ -14,11 +14,11 @@ a:hover {
   padding: 140px 0;
 }
 #Dom #chatYou {
-  left: 11%;
+  left: 8%;
 }
 #Dom .chat {
   position: absolute;
-  width: 33%;
+  width: 34%;
   background-color: #E8EDFF;
   border-radius: 20px;
   padding: 30px;
@@ -27,7 +27,7 @@ a:hover {
   display: none;
 }
 #Dom .chat .message {
-  height: 360px;
+  height: 320px;
   background-color: #fff;
   border-radius: 20px;
   overflow: auto;
